@@ -99,7 +99,6 @@ a .botones:active {
     justify-content: center;
     align-items: center;
     padding: 10rem;
-    z-index: -1;
 }
 
 .project-content {
