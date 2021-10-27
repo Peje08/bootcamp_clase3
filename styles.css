@@ -178,3 +178,9 @@ a .botones:active {
     border: #111827 2px solid;
     font-size: 20px;
   }
+
+  .button:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
