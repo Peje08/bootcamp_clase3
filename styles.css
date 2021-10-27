@@ -1,3 +1,181 @@
 *{
     margin: 0;
 }
+
+h2{
+    font-size: 50px;
+    color: blue;
+}
+
+header img {
+    height: 75px;
+    padding: 2.5px;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding-right: 5px;
+}
+header {
+    background: #FAF7F7;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    position:fixed;
+    z-index: 5;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    padding: 10px;
+}
+ul li:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+.headerButton {
+    border-radius: 10px;
+    float: left;
+    width: 196px;
+    margin: 0px 2px;
+    height: 50px;
+    background: rgb(185, 45, 27);
+    font-family: "Sans Serif", cursive;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    list-style: none;
+    min-width: 30px;
+    max-width: 100px;
+    
+}
+a .botones:active {
+    background: rgb(102, 14, 14);
+}
+
+.home {
+    height: 40vh;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    background-color: #330033;
+    background-image: url("https://fondosmil.com/fondo/27737.jpg");
+    background-size: cover;
+  }
+.about {
+    background-image: cover;
+    background: url(Fondo\ 2.jpg);
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+}
+
+.project {
+    background-image: url(https://freedesignfile.com/upload/2018/06/Cooking-recipes-background-and-jar-full-of-honey-on-white-04.jpg);
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    z-index: -1;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+  }
+
+.card {
+    background-color: rgb(206, 189, 168);
+    border: #E5E7EB 2px solid;
+    border-radius: 10px;
+    height: 300px;
+    margin: 1rem;
+    overflow: hidden;
+    width: 25%;
+  }
+  
+  .card img {
+    object-fit: contain;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+  }
+
+  #cardText {
+    color: #111827;
+    font-family: 'Roboto Slab';
+    padding: 4px;
+    text-align:left
+  }
+
+  #cardPrice {
+    text-align: right;
+    padding-right: 4px;
+    padding-bottom: 6px;
+  }
+
+
+.contact-container {
+    min-height: 20vh;
+    background-color: #bb5252;
+    background-size: cover;
+    padding: 10rem;
+  }
+  
+  .contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: #111827 2px solid;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  .contact-container input:focus, textarea:focus {
+    border: #111827 4px solid;
+    outline: none;
+  }
+
+  #sendButton{
+    min-width: 20px;
+    max-width: 150px;
+    font-family: 'Roboto Slab';
+    color: white;
+    background-color: #991B1B; 
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    border: #111827 2px solid;
+    font-size: 20px;
+  }
